@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/microrony/node#readme",
+  "bugs": {
+    "url": "https://github.com/microrony/node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microrony/node.git"
+  },
+  "license": "ISC",
+  "author": "Mahabubur Rahman",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
